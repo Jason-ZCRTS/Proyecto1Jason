@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary_variant"
+    tools:context=".pantalla_de_seleccion">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="379dp"
+        android:layout_height="703dp"
+        android:background="@color/cardview_dark_background"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="377dp"
+        android:layout_height="572dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/ropa1"
+                tools:layout_editor_absoluteX="126dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/ropa1"
+                tools:ignore="DuplicateIds"
+                tools:layout_editor_absoluteX="126dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/ropa2"
+                tools:ignore="DuplicateIds"
+                tools:layout_editor_absoluteX="126dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/ropa2"
+                tools:ignore="DuplicateIds"
+                tools:layout_editor_absoluteX="126dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/ropa4"
+                tools:ignore="DuplicateIds"
+                tools:layout_editor_absoluteX="126dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/ropa5"
+                tools:ignore="DuplicateIds"
+                tools:layout_editor_absoluteX="126dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="153dp"
+        android:layout_height="51dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_9s"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="76dp"
+        android:text="Inicio"
+        app:backgroundTint="@color/design_default_color_secondary_variant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="163dp"
+        android:layout_height="76dp"
+        android:text="Map"
+        app:backgroundTint="@color/design_default_color_secondary_variant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
