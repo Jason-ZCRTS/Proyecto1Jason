@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_gyroscope.xml" value="0.1" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_map.xml" value="0.16799999999999998" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_mapa_jj.xml" value="0.25" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_pantalla_de_seleccion.xml" value="0.2" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_pruebas.xml" value="0.2359375" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_rotation_vector.xml" value="0.2" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/gyroscope.xml" value="0.1" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/menu/menu_main.xml" value="0.264" />
       </map>
     </option>

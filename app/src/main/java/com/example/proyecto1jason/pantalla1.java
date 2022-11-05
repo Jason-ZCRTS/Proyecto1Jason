@@ -27,7 +27,7 @@ public class pantalla1 extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Bienvenido usuario Spender", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Bienvenido usuario Spender", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(pantalla1.this, pantalla_de_seleccion.class);
                 startActivity(intent);
             }

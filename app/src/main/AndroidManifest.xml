@@ -3,9 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.proyecto1jason">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature
+        android:name="android.hardware.sensor.proximity"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="true" />
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -17,9 +22,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto1Jason"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB3f1M-pGxdKUlebhZBBkNKW2yA3mAswgQ" />
         <activity
-            android:name=".mapaJJ"
+            android:name=".Pruebas"
             android:exported="false" />
+        <activity
+            android:name=".map"
+            android:exported="false" />
+        <activity
+            android:name=".ProximityActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".GyroscopeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RotationVectorActivity"
+            android:screenOrientation="portrait">
+        </activity>
         <activity
             android:name=".pantalla_de_seleccion"
             android:exported="false" />
@@ -32,6 +55,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

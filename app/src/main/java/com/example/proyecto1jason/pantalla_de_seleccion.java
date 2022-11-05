@@ -13,6 +13,7 @@ public class pantalla_de_seleccion extends AppCompatActivity {
 
     Button btn1;
     Button btn2;
+    Button btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +23,12 @@ public class pantalla_de_seleccion extends AppCompatActivity {
         btn1 = (Button) findViewById(R.id.button);
 
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+       btn1.setOnClickListener(new View.OnClickListener() {
 
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Vuelve a ingresar", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Vuelve a ingress", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(pantalla_de_seleccion.this, pantalla1.class);
                 startActivity(intent);
             }
@@ -43,7 +44,20 @@ public class pantalla_de_seleccion extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "Explora la ubicacion ", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(pantalla_de_seleccion.this, mapaJJ.class);
+                Intent intent = new Intent(pantalla_de_seleccion.this, map.class);
+                startActivity(intent);
+            }
+
+        });
+
+        btn3 = (Button) findViewById(R.id.button5);
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Explora las opciones ", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(pantalla_de_seleccion.this, Pruebas.class);
                 startActivity(intent);
             }
 
