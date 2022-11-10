@@ -3,17 +3,21 @@ package com.example.proyecto1jason;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.net.URI;
+
 public class pantalla_de_seleccion extends AppCompatActivity {
 
     Button btn1;
     Button btn2;
     Button btn3;
+    Button btn4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +32,7 @@ public class pantalla_de_seleccion extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Vuelve a ingress", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Vuelve a ingresar", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(pantalla_de_seleccion.this, pantalla1.class);
                 startActivity(intent);
             }
@@ -61,6 +65,19 @@ public class pantalla_de_seleccion extends AppCompatActivity {
                 startActivity(intent);
             }
 
+        });
+
+        btn4 = findViewById(R.id.button6);
+        String URL = "https://walink.co/2d7142";
+        btn4.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Uri link = Uri.parse(URL);
+
+                Intent i = new Intent(Intent.ACTION_VIEW,link);
+                startActivity(i);
+            }
         });
     }
 }
