@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,8 +13,9 @@ import com.mapbox.maps.MapView;
 import com.mapbox.maps.MapboxMap;
 import com.mapbox.maps.Style;
 
-public class map extends AppCompatActivity{
+public class map extends AppCompatActivity {
 
+    ImageView btn3;
 
 
     MapView mapView;
@@ -27,10 +29,20 @@ public class map extends AppCompatActivity{
         mapView = findViewById(R.id.mapView);
         mapView.getMapboxMap().loadStyleUri(Style.MAPBOX_STREETS);
 
-    }
+        btn3 = (ImageView) findViewById(R.id.Volviendo);
 
-    public void sendAtras(View view){
-     Intent intent = new Intent(this,pantalla_de_seleccion.class);
-     startActivity(intent);
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+
+
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Regresando", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(map.this, pantalla_de_seleccion.class);
+                startActivity(intent);
+            }
+
+
+        });
     }
 }

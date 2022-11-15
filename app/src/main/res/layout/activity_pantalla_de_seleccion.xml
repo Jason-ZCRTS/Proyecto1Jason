@@ -43,13 +43,31 @@
                 app:srcCompat="@drawable/ropa1"
                 tools:layout_editor_absoluteX="126dp" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                android:text="Trapstar its a Secret Hoodie Chándal – Negro / Cachemira Negro / colores $ 290"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                tools:ignore="DuplicateIds" />
+
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="261dp"
                 android:layout_height="202dp"
-                app:srcCompat="@drawable/ropa1"
+                app:srcCompat="@drawable/shooter"
                 tools:ignore="DuplicateIds"
                 tools:layout_editor_absoluteX="126dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                android:text="Trapstar shooters Hoodie Chándal – Negro / Cachemira negro / blanco $ 290"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                tools:ignore="DuplicateIds" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -59,13 +77,32 @@
                 tools:ignore="DuplicateIds"
                 tools:layout_editor_absoluteX="126dp" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                android:text="Trapstar its a Secret Hoodie Chándal – Gris claro / Cachemira Gris / blanco $ 210"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                tools:ignore="DuplicateIds" />
+
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="261dp"
                 android:layout_height="202dp"
-                app:srcCompat="@drawable/ropa2"
+                app:srcCompat="@drawable/track_suit"
                 tools:ignore="DuplicateIds"
                 tools:layout_editor_absoluteX="126dp" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                android:text="Trapstar V-Stripe Hoodie Chándal – Azul marino / Cachemira azul / blanco $ 299"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"/>
+
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -75,13 +112,33 @@
                 tools:ignore="DuplicateIds"
                 tools:layout_editor_absoluteX="126dp" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                android:text="Trapstar its a Secret Hoodie Chándal – Cafe oscuro / Cachemira Cafe / blanco $ 290"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                tools:ignore="DuplicateIds" />
+
+
+
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="261dp"
                 android:layout_height="202dp"
-                app:srcCompat="@drawable/ropa5"
+                app:srcCompat="@drawable/descargar"
                 tools:ignore="DuplicateIds"
                 tools:layout_editor_absoluteX="126dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="261dp"
+                android:layout_height="202dp"
+                android:text="Trapstar Irongate T Cross-Body Bag 1.0 – Blue Gradien $ 120"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                tools:ignore="DuplicateIds" />
 
             <Button
                 android:id="@+id/button5"

@@ -5,13 +5,16 @@
       <map>
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/drawable/contacto.xml" value="0.176" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_editar_db.xml" value="0.264" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_gyroscope.xml" value="0.2" />
-        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_leer.xml" value="0.2" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_map.xml" value="0.1242603550295858" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_mapa_jj.xml" value="0.25" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_nuevo.xml" value="0.264" />
-        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_pantalla_de_seleccion.xml" value="0.128" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_pantalla_de_seleccion.xml" value="0.1" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_pruebas.xml" value="0.2359375" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_registro.xml" value="0.16799999999999998" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_rotation_vector.xml" value="0.2" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/activity_sensor_orientacion.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/jason/AndroidStudioProjects/Proyecto1Jason/app/src/main/res/layout/gyroscope.xml" value="0.1" />

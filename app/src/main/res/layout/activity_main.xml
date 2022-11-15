@@ -43,6 +43,20 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/_9" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="141dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:onClick="sendRegistro"
+        android:text="Registrarse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -68,7 +68,7 @@ public class pantalla_de_seleccion extends AppCompatActivity {
         });
 
         btn4 = findViewById(R.id.button6);
-        String URL = "https://walink.co/2d7142";
+        String URL = "https://walink.co/7aab33";
         btn4.setOnClickListener(new View.OnClickListener(){
 
             @Override

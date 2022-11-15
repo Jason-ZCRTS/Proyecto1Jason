@@ -36,5 +36,10 @@ public class pantalla1 extends AppCompatActivity {
         });
 
     }
+    public void sendRegistro(View view) {
+        Toast.makeText(getApplicationContext(), "Explora la ubicacion", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, Registro.class);
+        startActivity(intent);
+    }
 
 }
