@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/black"
-    tools:context=".Pruebas">
+    tools:context="app.android.proyecto1jason.Pruebas">
     <Button
         android:text="Proximity Sensor"
         android:layout_width="wrap_content"

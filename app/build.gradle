@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.proyecto1jason"
+        applicationId "app.android.proyecto1jason"
         minSdk 21
         targetSdk 32
         versionCode 1

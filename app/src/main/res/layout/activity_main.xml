@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/spender99"
-    tools:context=".pantalla1">
+    tools:context="app.android.proyecto1jason.pantalla1">
 
 
     <TextView

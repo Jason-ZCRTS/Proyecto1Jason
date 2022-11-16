@@ -26,13 +26,13 @@
         android:theme="@style/Theme.Proyecto1Jason"
         tools:targetApi="31">
         <activity
-            android:name=".Leer"
+            android:name="app.android.proyecto1jason.Leer"
             android:exported="false" />
         <activity
-            android:name=".EditarDB"
+            android:name="app.android.proyecto1jason.EditarDB"
             android:exported="false" />
         <activity
-            android:name=".Registro"
+            android:name="app.android.proyecto1jason.Registro"
             android:exported="false" />
 
         <meta-data
@@ -40,25 +40,25 @@
             android:value="AIzaSyB3f1M-pGxdKUlebhZBBkNKW2yA3mAswgQ" />
 
         <activity
-            android:name=".Pruebas"
+            android:name="app.android.proyecto1jason.Pruebas"
             android:exported="false" />
         <activity
-            android:name=".map"
+            android:name="app.android.proyecto1jason.map"
             android:exported="false" />
         <activity
-            android:name=".ProximityActivity"
+            android:name="app.android.proyecto1jason.ProximityActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GyroscopeActivity"
+            android:name="app.android.proyecto1jason.GyroscopeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RotationVectorActivity"
+            android:name="app.android.proyecto1jason.RotationVectorActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".pantalla_de_seleccion"
+            android:name="app.android.proyecto1jason.pantalla_de_seleccion"
             android:exported="false" />
         <activity
-            android:name=".pantalla1"
+            android:name="app.android.proyecto1jason.pantalla1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
